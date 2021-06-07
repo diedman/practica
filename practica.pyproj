@@ -18,7 +18,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>practica</Name>
     <RootNamespace>practica</RootNamespace>
-    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,6 +36,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="js\" />
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
@@ -44,6 +45,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\main.js" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />

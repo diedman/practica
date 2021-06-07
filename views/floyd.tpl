@@ -15,21 +15,17 @@
 	<p style="font-size: 19px">
 	Select the number of vertices in the graph</p>
 
-	<form method="post">
+	<form method="post" onsubmit="return checkSubmit(this)">
 	<table border="1">
-	<input type="number" value="{{length}}" min="3" max="10" name="CHANGE" />
-	<input class="btn btn-primary" type="submit" name="BTN" value="Enter" style="
-    padding: 8px;
-    color: red;
-	background-color: white;
-    border-radius: 15px;
-	"/>
-
-
-
 	</table>
+	
+	<input type="number" value="{{length}}" min="3" max="8" name="CHANGE" />
+	<input class="submit" type="submit" name="BTN" value="Enter" 
+	style ="padding: 3px; padding-left: 10px; padding-right: 10px; color: black; background-color: white; border-radius: 8px; margin-left: 10px;" />
+	
 	</form>
 
+	<script src="js/main.js"></script>
 
 	<br>
 	<br>
