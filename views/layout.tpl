@@ -23,7 +23,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="/Hamiltonov_path">Hamilton path</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/Dijkstra">Dijkstra</a></li>
                     <li><a href="/floyd">Floyd</a></li>
                 </ul>
             </div>

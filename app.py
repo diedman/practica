@@ -6,6 +6,7 @@ import bottle
 import os
 import sys
 import dima
+import Dijkstra
 
 # routes contains the HTTP handlers for our server and must be imported.
 import routes

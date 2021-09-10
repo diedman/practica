@@ -26,12 +26,13 @@ def floyd():
         length = 3
     )
 
-@route('/about')
-@view('about')
+@route('/Dijkstra')
+@view('Dijkstra')
 def about():
     """Renders the about page."""
     return dict(
         title='About',
         message='Your application description page.',
-        year=datetime.now().year
+        year=datetime.now().year,
+        answer = ""
     )

@@ -30,6 +30,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="Dijkstra.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
     <Compile Include="dima.py">
       <SubType>Code</SubType>
@@ -71,7 +74,7 @@
     <Content Include="static\scripts\respond.js" />
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
-    <Content Include="views\about.tpl" />
+    <Content Include="views\Dijkstra.tpl" />
     <Content Include="views\floyd.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
